@@ -20,8 +20,8 @@ public class NeuralNetwork {
 
         biasH = new Matrix(hiddenNodes, 1);
         biasO = new Matrix(outputNodes, 1);
-        biasH.randomizeWeights();
-        biasO.randomizeWeights();
+        biasH.randomizeBiases();
+        biasO.randomizeBiases();
 
         learningRate = 0.01;
     }

@@ -17,7 +17,7 @@ public class Matrix {
     public void randomizeBiases(){
         for(int i=0; i<data.length ;i++){
             for(int j=0; j<data[i].length ;j++){
-                data[i][j] = (double) (Math.random()*2-0.4);
+                data[i][j] = (double) 1;
             }
         }
     }

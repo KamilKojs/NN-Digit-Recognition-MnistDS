@@ -24,7 +24,7 @@ public class Main {
 
         NeuralNetwork neuralNetwork = new NeuralNetwork(784, 30, 10);
 
-        for(int i=0; i<3 ;i++) {
+        for(int i=0; i<10 ;i++) {
             for (Digit digit : digits) {
                 neuralNetwork.train(digit.data, digit.label);
             }
